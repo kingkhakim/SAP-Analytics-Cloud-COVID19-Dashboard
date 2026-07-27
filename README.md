@@ -55,9 +55,7 @@ SAP-Analytics-Cloud-COVID19-Dashboard
 │   ├── time-series.png
 │   ├── asean-dashboard.png
 │   └── data-analyser.png
-│
-└── assets
-```
+
 
 ---
 
@@ -109,7 +107,7 @@ Dengan konfigurasi tersebut SAP hanya mengambil nilai **terakhir** berdasarkan t
 
 Selain itu saya juga mengubah variabel **Population** dari **Dimension** menjadi **Measure**, karena Population merupakan data numerik yang seharusnya dapat dihitung dan digunakan pada proses analisis.
 
-![Data Model](screenshots/data-model.png)
+![Data Model](SAP-Analytics-Cloud-COVID19-Dashboard/Screenshot/data-model.png)
 
 ---
 
@@ -133,7 +131,7 @@ Kategori seperti:
 
 dihapus menggunakan fitur **Exclude** sehingga grafik hanya menampilkan data berdasarkan negara dan hasil visualisasi menjadi lebih mudah dibaca.
 
-![Top 5 New Cases](screenshots/top5-new-cases.png)
+![Top 5 New Cases](SAP-Analytics-Cloud-COVID19-Dashboard/Screenshot/top5-new-cases.png)
 
 ---
 
@@ -161,7 +159,7 @@ new_tests
 
 Hasilnya adalah grafik yang menampilkan **Top 5 Countries by New Tests**.
 
-![Top 5 New Tests](screenshots/top5-new-tests.png)
+![Top 5 New Tests](SAP-Analytics-Cloud-COVID19-Dashboard/Screenshot/top5-new-tests.png)
 
 ---
 
@@ -181,8 +179,7 @@ Selain itu saya juga mencoba fitur **Automatic Forecast** yang tersedia pada SAP
 
 Fitur ini secara otomatis membuat proyeksi berdasarkan data historis sehingga pengguna dapat memperoleh gambaran mengenai kemungkinan tren pada periode berikutnya.
 
-![Time Series](screenshots/time-series.png)
-
+![Time Series](SAP-Analytics-Cloud-COVID19-Dashboard/Screenshot/time-series.png)
 ---
 
 # KPI Indicator
@@ -197,7 +194,7 @@ Visualisasi ini cocok digunakan untuk menampilkan nilai agregat seperti:
 
 sehingga pengguna dapat langsung melihat informasi utama tanpa harus membaca keseluruhan grafik.
 
-![Dashboard](screenshots/dashboard-overview.png)
+![Dashboard](SAP-Analytics-Cloud-COVID19-Dashboard/Screenshot/dashboard-overview.png)
 
 ---
 
@@ -221,7 +218,7 @@ Saya menggunakan **Page Filter (Input Control)** sehingga dashboard hanya menamp
 
 Dengan fitur ini pengguna dapat membandingkan perkembangan COVID-19 antar negara ASEAN tanpa perlu membuat dashboard baru.
 
-![ASEAN Dashboard](screenshots/asean-dashboard.png)
+![ASEAN Dashboard](SAP-Analytics-Cloud-COVID19-Dashboard/Screenshot/asean-dashboard.png)
 
 ---
 
@@ -241,7 +238,7 @@ Pada bagian ini saya melakukan beberapa eksplorasi data seperti:
 
 Fitur ini sangat membantu ketika ingin melakukan eksplorasi data secara cepat sebelum membuat dashboard.
 
-![Data Analyzer](screenshots/data-analyser.png)
+![Data Analyzer](SAP-Analytics-Cloud-COVID19-Dashboard/Screenshot/data-analyser.png)
 
 ---
 
